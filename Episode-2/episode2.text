@@ -1,0 +1,37 @@
+Episode 2: Igniting our App, I learned about bundler, NPM, Types of dependency, the difference between caret and tilde, the difference between package.json and package-lock.json, node modules, transitive dependency, and parcel.
+
+◽NPM:- npm is a package manager. npm is a repository where all the libraries, frameworks, and tools are available.
+
+◽Types of Dependency:- There are two types of dependency.
+1) Dev Dependency- Generally required in the developing phase
+2) Normal Dependency- Used in the production phase
+
+◽Difference between caret and tilde 
+1) Caret (^): The caret is used to specify a range of compatible versions with some flexibility. When used with a major version number, it allows for backward-compatible updates.
+2) Tilde (~): The tilde is used to specify a range of versions with a more restrictive approach. It allows only for updates within the same major version and includes patch-level updates.
+
+◽Package.json:- It is a configuration for npm. It keeps attracting, of what version is installed in our app.
+
+◽Package-lock.json:- It locks the version and keeps the exact version record.
+
+◽Node-Modules:- It contains the code which we fetch from the NPM or we can say it is like a database where our all code exists.
+
+◽Parcel:- Parcel is a web application bundler that simplifies the process of building and bundling web applications. Parcel simplifies the development workflow by providing a fast, easy-to-use, and zero-configuration bundling solution. It reduces the initial setup time, improves development productivity with features like HMR, and automatically optimizes the performance of the bundled output.
+
+◽Superpower of Parcel:- 
+HMR - Hot Module Replacement
+File watching algorithm => written in C++
+Caching => Faster Builds
+Image Optimization
+Minification
+Bundling
+Compressing
+Consistent Hashing
+Code Splitting
+Differential Bundling - Support older browsers
+Diagnostic
+Error Handling
+HTTPS
+Tree Shaking
+
+◽Tree Shaking:- Tree shaking is a technique used in JavaScript module bundlers, such as Webpack or Parcel, to eliminate unused code from the final bundled output. It helps optimize the bundle size by removing dead or unreachable code.
