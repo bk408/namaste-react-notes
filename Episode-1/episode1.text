@@ -1,0 +1,6 @@
+Episode 1: Inception, I learned about CDN, How can we add HTML files in JS, How can we add HTML files in React, and the Nested structure inside React.
+
+CDN: CDN stands for Content Delivery Network. The purpose of a CDN is to deliver web content, such as images, videos, CSS files, JavaScript files, and other static assets, to users more efficiently and quickly.
+
+Use of CDN: Improved Performance, Scalability, Caching. 
+Also, CDNs are used to enhance website and application performance, improve scalability, optimize content delivery, ensure global reach, provide security features, and offer valuable analytics and reporting capabilities.
