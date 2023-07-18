@@ -1,0 +1,30 @@
+Episode 3: Laying the foundation, I learned about JSX, React.createElement vs JSX, benefits of JSX, behind-the-scenes of JSX, Babel & Parcel role in JSX, and Components.
+
+◆React Element is an object but when we render this to the DOM then it will become an HTML element.
+
+◆ JSX:- JSX is a JavaScript syntax that makes creating react elements easier.
+▴ JSX looks like HTML but it's not HTML
+▴ JSX expression must have only one parent
+▴ JSX takes care of Injection attack 
+▴ JSX is not a part of React
+▴ JSX transpiler before it reaches to JS engine => Parcel => Babel
+▴ While using JSX, using curly braces {}, we can write JS anywhere
+
+◆ Babel:-Babel is a JavaScript compiler. It takes our JSX code and converts it, which browser or React will understand. Babel is used to convert JSX to React.createElement
+
+  JSX => Babel transpiled it to => React.createElement => JS object => HTML Element(render)
+
+◆ React Component:- Everything is component
+◒ There are two types of components
+1) Class-Based Component => Old way
+2) Functional Component => New way
+
+◒ Functional Component:- These are like normal JavaScript function, Which returns some piece of JSX and react Element.
+
+◆ Component Composition:- composing two components into one another is called component composition.
+
+◆ Cross-Site Scripting (XSS):- Cross-Site Scripting (XSS) is a security vulnerability that occurs when an application allows untrusted data to be displayed on a web page without proper sanitization or validation. This can lead to the execution of malicious scripts in a user's browser, potentially compromising the user's sensitive information, hijacking user sessions, or spreading malware.
+
+  JSX takes care of these types of injection attacks. Whenever any data is wrapped inside the curly braces {}, JSX won't blindly run it. It sanitizes the data and then passes it. It perverts cross-site scripting.
+
+◆ React Fragment:- It is a built-in component that allows us to group multiple child elements without introducing an additional DOM element. It is useful when we need to return multiple elements from a component's render method without wrapping them in a parent container.
