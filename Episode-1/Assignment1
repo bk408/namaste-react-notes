@@ -1,0 +1,40 @@
+Q1. what is Emmet?
+Ans => Emmet, formerly known as Zen Coding. It is a web development tool and abbreviation syntax that allows developers to write HTML and CSS code more quickly and efficiently.  It is primarily used in code editors to speed up the process of creating HTML and CSS markup.
+
+
+Q2. Difference between library and framework?
+Ans => A library provides specific functionality that developers can use at their discretion, while a framework provides a complete structure and set of tools for building applications. Libraries offer more flexibility and control, while frameworks provide a predefined structure and conventions to streamline development.
+
+
+Q3. What is CDN? Why do we use it?
+Ans => CDN stands for Content Delivery Network. The main purpose of a CDN is to deliver web content, such as images, videos, CSS files, JavaScript files, and other static assets, to end users more efficiently and quickly. When a user requests content from a website, the CDN serves the content from the server that is closest to the user's geographical location. 
+
+-->  key reasons why CDNs are used:  -->
+
+- Improved Website Performance
+- Cost Efficiency
+- Faster Content Delivery
+- CDNs are used to enhance website performance, improve user experience, optimize content delivery, and provide scalability and reliability benefits
+
+Q4. Why is React known as React?
+Ans => React is known as "React" because of its core concept of reactive and component-based UI development. The name "React" reflects its primary purpose, which is to efficiently handle changes in the application's state and respond to them by updating the user interface. 
+
+React was developed by Facebook and was initially released in 2013.
+
+The core idea behind React is the use of reusable components that can efficiently update and render UI elements based on changes in the application's data.
+
+Q5.What is difference between React and React DOM?
+Ans => React: The React package is the core library that provides the foundational building blocks for building user interfaces. It focuses on the component-based architecture and the management of component state and props. React provides features such as component rendering, lifecycle methods, virtual DOM diffing, and reconciliation. It allows you to define reusable components, manage application state, and handle user interactions.
+
+ReactDOM: The ReactDOM package serves as the glue between React and the browser's Document Object Model (DOM). It provides the necessary methods for rendering React components into the DOM and keeping them in sync with the application state. ReactDOM is responsible for handling the rendering and updating of components in the browser environment. It provides methods like ReactDOM.render() to render React components into the DOM and ReactDOM.hydrate() for server-side rendering hydration.
+
+In summary, React and ReactDOM work together to enable the development and rendering of user interfaces. React focuses on the component-based architecture, state management, and rendering logic, while ReactDOM provides the necessary tools for rendering React components into the browser's DOM and keeping them synchronized with the application state.
+
+
+Q6. what is difference between react.development.js and react.production.js files via CDN?
+Ans => react.development.js: This file is intended for development purposes. It is an unminified and non-optimized version of the React library. It includes additional warning messages and error-checking capabilities, making it easier to debug and identify issues during development. The file size is larger compared to the production version due to the inclusion of these additional development-specific features.
+
+react.production.js: This file is meant for production use. It is a minified and optimized version of the React library, designed for deployment in production environments. The file size is smaller than the development version as it removes unnecessary comments, whitespace, and debug information. It also omits warning messages and error-checking code, which results in improved performance and reduced file size.
+
+Q7. What are async and defer?
+Ans => The async attribute allows scripts to be downloaded and executed asynchronously, while the defer attribute allows scripts to be downloaded asynchronously but executed in order after the HTML document has been parsed. The async attribute prioritizes faster script execution, potentially at the cost of execution order, while the defer attribute maintains execution order but ensures scripts do not block the HTML parsing process. 
