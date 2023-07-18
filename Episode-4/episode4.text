@@ -1,0 +1,58 @@
+Episode 4: Talk is cheap, show me the code, I learned about props, different ways to pass the data through props, config driven UI.
+
+◾ Props:- When we have dynamic passing some data to a component, we pass in as a prop. props are used to share the data from parent-to-child components. Also, props allow us to create reusable and modular components by providing a way to customize their behavior and appearance.
+
+◾ Ways to pass props:- There are two ways to pass the props 
+1) Normal Way 
+2) Destructuring way
+
+◾ Config driven UI:- It is basically controlling our UI, how the UI looks like using data config and that config comes from the backend.
+
+🚀 Superpower of config-driven UI:-
+
+◦ Flexibility
+◦ Customization and Personalization
+◦ Reduced Development Time
+
+
+
+1) Normal Way:-
+
+const Header = (props) => {
+  return(
+    <div>
+    <h3>{props.resName}</h3>
+    </div>
+  )
+}
+
+const Body = () => {
+  return(
+   <div>
+   <res resName="Namste React" />
+   </div>
+    
+  )
+}
+
+
+
+2) Destructuring way
+
+// ParentComponent.jsx
+
+
+const Heading = () => {
+  const person = {
+    name: 'John',
+    age: 30
+  };
+
+  return (
+    <div>
+      <Child {...person} />
+    </div>
+  );
+};
+
+export default Heading;
