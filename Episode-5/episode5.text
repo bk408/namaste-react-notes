@@ -1,0 +1,32 @@
+Episode 5: Let's Get Hooked!
+
+◾ Difference between named export, default export, and * as export:-
+1) Named exports:- 
+◦ Named exports allow us to export multiple values or functions from a module by explicitly specifying their names.
+◦ In the exporting module, we use the export keyword before each declaration we want to export.
+◦ In the importing module, we can selectively import the exported values by specifying their names inside curly braces {}
+
+2) Default exports:-
+◦ Default exports allow us to export a single value or function as the default export from a module.
+◦ In the exporting module, we use the export default syntax followed by the value or function we want to export as the default.
+◦ In the importing module, we can choose any name for the imported value and import it without curly braces.
+
+3) * as export:-
+◦ The * as syntax allows us to import all exported values from a module and bundle them into a single object.
+◦ In the importing module, we use the * as syntax followed by a name to import all exports from the module into an object with that name.
+
+◾ React Hooks:- React hook is a normal javascript function that is given to us by React or we can say react hooks are functions that allows us to use state and other react feature in functional components. There are many react hooks like useState, useEffect, useContext, useMemo, useRef, etc.
+
+◾ useState:- useState gives us a superpowerful variable in React. This hook allows us to add a state to our functional components. It returns a pair of values: the current state and a function to update that state.
+ Whenever a state variable updates/changes, react will re-render the component.
+
+◾ Reconciliation algorithm:- React uses the Reconciliation algorithm and which is also known as "React Fiber". In React 16, A new algorithm to update the DOM, and came out that algorithm known as Reconciliation In simple words, We can say whenever something changes on UI it is called Reconciliation. After React 16, This algorithm is known as "React Fiber".
+
+🚀 Key Features of React Fiber:- 
+◦ Incremental Rendering: The ability to split rendering work into chunks and spread it out over multiple frames.
+◦ The ability to pause, abort, or reuse work as new updates come in
+◦ The ability to assign priority to different types of updates
+◦ The goal of React Fiber is to increase its suitability for areas like animation, layout, and gestures.
+
+◾ Virtual DOM:- Virtual DOM is the representation of actual DOM but it is not an actual DOM. It is used to improve the performance of updates and changes to the actual DOM by reducing the number of expensive DOM manipulations.
+◾ Diff Algorithm:- It finds out the difference between two virtual DOM.
