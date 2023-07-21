@@ -1,0 +1,91 @@
+Episode 6: Exploring the world, I learned about microservice, monolith architecture, the difference between monolith architecture and microservice, use of effect Hook, optional chaining, shimmer UI, the difference between JS expression and JS statement, conditional rendering, CORS, async & await
+
+Q1. what is Microservice?
+◾Ans=> Microservice:- A microservice is a software architectural style where an application is built as a collection of small, independent, loosely coupled services that communicate with each other through well-defined APIs (Application Programming Interfaces). Each microservice represents a specific business capability and runs as a separate process, often deployed in its own container or virtual machine.
+
+
+Q2. what is Monolith architecture?
+◾Ans=> Monolith architecture:- Monolith architecture is a traditional software architectural style where an entire application is built as a single, unified, and tightly coupled unit. In a monolithic architecture, all the components and modules of the application are interconnected and interdependent, usually sharing the same codebase and database.
+
+
+
+◾Q3. Difference between Monolith architecture and Microservice:-
+Ans=> 
+1) Modularity and Decoupling:
+
+◦ Monolith: In a monolith architecture, all the components and modules of the application are tightly coupled and interconnected within a single codebase. Changes to one part of the application can have widespread impacts on other parts.
+
+◦ Microservice: In a microservice architecture, the application is composed of small, independent services that are loosely coupled. Each microservice represents a specific business capability and can be developed, deployed, and scaled independently of other services.
+
+2) Scalability:
+
+◦ Monolith: Scaling a monolithic application can be challenging as the entire application is a single unit. Increasing the load on one component may require scaling the entire application, even if other parts don't need additional resources.
+
+◦ Microservice: Microservices allow for granular scalability. Each service can be scaled individually based on its specific demand, providing better resource utilization and cost-effectiveness.
+
+3) Deployment:
+
+◦ Monolith: Monolithic applications are deployed as a single unit. Any updates or changes require redeploying the entire application.
+
+◦ Microservice: Microservices support independent deployment. Changes to one microservice can be rolled out without affecting other services, enabling faster and more frequent deployments.
+
+4) Technology Diversity:
+
+◦ Monolith: Monolithic applications are typically built using a single technology stack, which may limit the flexibility to use different technologies for different application parts.
+
+◦ Microservice: Microservices allow for technology diversity. Different microservices can be developed using different programming languages, frameworks, and databases, based on what best suits their specific needs.
+
+5) Development and Maintenance:
+
+◦ Monolith: Large monolithic codebases can become challenging to manage and maintain as the application grows. It may lead to longer development cycles and difficulties for multiple teams working simultaneously.
+
+◦ Microservice: Microservices promote smaller, focused codebases, which are easier to develop and maintain. It allows development teams to work on individual services independently, promoting agility and faster iteration.
+
+6) Failure Isolation:
+
+◦ Monolith: If a single component in the monolith fails, it can impact the entire application's functionality, potentially leading to downtime.
+
+◦ Microservice: Microservices are designed for failure isolation. If one microservice fails, it does not affect other services, and the application can continue to function partially.
+
+
+
+Q4. what is use of useEffect?
+◾Ans=> Use of useEffect Hook:- useEffect hook is crucial for managing side effects, asynchronous operations, and component lifecycle events in functional components, making it a powerful and essential tool for building React applications.
+
+
+Q5. what is Optional Chaining?
+◾Ans=> Optional Chaining:- Optional chaining is a feature that provides a concise and safe way to access nested properties and methods on objects or arrays, even if intermediate properties are null or undefined. It helps prevent errors and exceptions that would occur when trying to access properties or call methods on non-existent or null/undefined values. The optional chaining syntax uses the question mark (?) placed before the property or method name.
+
+
+Q6. what is the use of Optional Chaining?
+◾Ans=> Use of Optional Chaining:- Optional chaining is useful when dealing with data from APIs or external sources where the structure of the data might not always be guaranteed. It simplifies the code by reducing the need for nested checks or conditionals to handle missing properties. It helps avoid potential "TypeError" issues caused by accessing properties on undefined or null values.
+
+
+Q7. What is Shimmer UI?
+◾Ans=> Shimmer UI:- It is a better way to show loading states in our web or mobile app. It improves the user experience by providing visual feedback, or In simple words we can say, It is kind of a fake page that loads until we get the data from API.
+
+
+Q8. What is Conditional Rendering?
+◾Ans=> Conditional Rendering:- Rendering based on condition is known as conditional rendering.
+
+
+
+Q9. Key difference between JS expression and JS statement:- 
+Ans=> 
+◦ Expressions in JavaScript evaluate a value and can be used wherever a value is expected.
+
+◦ Statements in JavaScript perform actions or control the flow of the program, and they don't produce values.
+
+
+Q10. What is CORS?
+◾Ans=> CORS:- cross-origin Resource Sharing or CORS is a policy that let the browser gain permission to access resources from a server on a different domain.
+
+     Different domain means, a domain different than the top domain which the website is using.
+
+     Q11. What is Async and Await?
+     Ans=>
+◾ Async Function (async):- The async keyword is used to define an asynchronous function. An async function always returns a Promise, either resolved with the function's return value or rejected with an error thrown inside the function. Within an async function, you can use the await keyword to pause the execution of the function until a Promise is resolved.
+
+◾ Await Expression (await):- The await keyword is used within an async function to wait for the resolution of a Promise. When the await keyword is used before a Promise, it will pause the execution of the async function until the Promise is settled (resolved or rejected). If the Promise resolves, the awaited expression will return the resolved value; if the Promise rejects, it will throw an error that can be caught using a try-catch block. 
+
+
