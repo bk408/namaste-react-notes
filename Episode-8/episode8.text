@@ -1,0 +1,30 @@
+
+                                   🚀  Episode 8: Let's get Classy   🚀
+
+
+◾  Functional Component:- Functional component is basically a function that returns some piece of JSX.
+
+
+
+
+
+◾ Class based Component:- Class based component is a class which extend React.component and it has render method which returns some piece of JSX.
+
+
+
+
+◾  ComponeDidMount:- componentDidMount is like a special room where a React component goes after it's shown on the screen for the first time. In this room, the component can do things like getting data from the internet, setting up things it wants to listen to (like when you listen for someone knocking on your door), or changing things in the room itself. It's like a place for the component to get ready and settle in after it's been shown to everyone.
+
+
+
+◾ ComponentWillUnmount:- componentWillUnmount is like the "clean-up time" for a React component. When the component is about to disappear from the screen, React gives it a chance to do any necessary final tasks, like putting away toys before leaving a play area. It's a way to make sure everything is neat and tidy before the component goes away.
+
+
+
+◾ Why do we use super(props) in constructor:- It allows accessing this.props in a Constructor function and it calls the constructor of the parent class. 
+
+
+
+◾ Why can't we have the callback function of useEffect async:- This is because the useEffect hook expects its effect function to return either a cleanup function or nothing at all. This is due to the useEffect() hook's callback function's asynchronous execution and lack of blocking. Therefore, we must follow a specific pattern if we want to call an asynchronous function inside the useEffect() hook.
+
+The special pattern is to create a new function that is declared inside the useEffect() hook and that contains the async function, and then we can call this new function inside the useEffect() hook. 
