@@ -68,4 +68,26 @@
   - useEffect
 
 
+  # Code Spilitting
+
+  ⚡ Advantage of code splitting:-
+
+(1) Improved Initial Load Time
+(2) Faster Time to Interactive
+(3) Better Performance on Low-End Devices
+(4) Optimized Bandwidth Usage
+(5) Efficient Use of Browser Cache
+(6) Enhanced User Experience
+
+
+⚡ Disadvantage of code splitting:-
+ 
+(1) Complexity
+(2) Increased Requests
+(3) Webpack and Tooling Overhead
+(4) Harder Debugging
+(5) Initial Load Time of Small Chunks
+(6) SEO Challenges
+
+
   

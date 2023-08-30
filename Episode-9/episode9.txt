@@ -1,0 +1,34 @@
+Q1. Why I need to create custom hooks?
+Ans-1: Creating custom hooks is not a mandatory thing but it's very good thing because that will make our code more readable, reusable, modular.
+
+Q2. What is lazy()?
+Ans-2: lazy() function is used for code splitting, which is a technique that allows us to load parts of our application only when they are actually needed, rather than loading all of the code upfront. This can help improve the initial load time of our application and optimize performance by reducing the amount of JavaScript that needs to be downloaded and executed.
+
+The primary use case for lazy() is when we have large components or modules that are not immediately required when your application starts. Here's when and why we might use lazy()
+
+
+Q3. What is Suspense()?
+Ans-3: Suspense is a component in React that allows us to handle asynchronous operations, such as code-splitting with lazy() and data fetching, in a more declarative and user-friendly manner. It was introduced to simplify handling loading states and fallbacks when components or data are not immediately available.
+
+Q4. Advantage & Disadvantage of code splitting?
+Ans-4: 
+
+⚡ Advantage of code splitting:-
+
+(1) Improved Initial Load Time
+(2) Faster Time to Interactive
+(3) Better Performance on Low-End Devices
+(4) Optimized Bandwidth Usage
+(5) Efficient Use of Browser Cache
+(6) Enhanced User Experience
+
+
+⚡ Disadvantage of code splitting:-
+ 
+(1) Complexity
+(2) Increased Requests
+(3) Webpack and Tooling Overhead
+(4) Harder Debugging
+(5) Initial Load Time of Small Chunks
+(6) SEO Challenges
+
