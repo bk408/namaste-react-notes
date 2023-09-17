@@ -1,0 +1,30 @@
+Q1. What is lifting the state up? 
+ Ans-1: Lifting state up means taking the responsibility for managing data or information from a smaller part of a program and moving it to a larger, more central part. This makes it easier for different parts of the program to work together and share that data. 
+ It's like moving the control of a TV's remote from one person to a group so that everyone can change the channel when they need to.
+
+
+Q2. What is props driling?
+Ans-2: Prop drilling is a method of passing data between components in a unidirectional manner, but it can become complex and decrease maintainability as the application scales.
+
+👎 Drawbacks of prop drilling:- 
+ (1) Prop drilling can make our code harder to maintain
+ (2) Performance considerations
+
+
+Q3. What are the context provider and context consumer?
+Ans-3: 
+
+🔥 Context Provider:- The Context Provider is a component that provides the data or state you want to share. It wraps a portion of your component tree and makes the data available to all the components nested within that tree. 
+    It typically includes a value prop, which holds the shared data or state.
+
+🔥 Context Consumer: The Context Consumer is a component that consumes or accesses the data provided by the Context Provider. It allows components within its subtree to access and use the data from the Context Provider. 
+    Consumers use a special function or component to access the data, often called useContext or Consumer respectively.
+
+Q4. What is React context?
+Ans-4: It is used to pass the data from one component to another component without using the props.
+
+Q5. What is Pure function?
+Ans-5: Pure functions are predictable and don't cause unexpected behavior, making them a fundamental concept in functional programming.
+
+🔥 Always produces the same output for the same input.
+🔥 Doesn't have any side effects, meaning it doesn't change or rely on anything outside of the function.
