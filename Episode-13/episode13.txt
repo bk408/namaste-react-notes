@@ -1,0 +1,38 @@
+Q1. What is Enzyme?
+Ans-1: Enzyme is a tool for testing React applications. It helps developers check if their React components work correctly. 
+Enzyme makes it easier to simulate how users interact with the components and see if the components display the right things. 
+It's like a testing assistant for React apps.
+
+Q2. Enzyme vs React testing Library 
+Ans-2:  🔍 Enzyme provides more flexibility and is suitable for testing components in isolation, including class components.
+
+🚶‍♂️ React Testing Library promotes user-centered testing and is ideal for functional components and best practices in testing the user interface.
+
+👍 React Testing Library has gained popularity in the React community and is recommended for most modern React projects, but we can choose the tool that aligns best with our testing goals and project requirements.
+
+Q3. What is jest and why do we use it?
+Ans-3: Jest is a versatile and powerful testing framework for JavaScript and React applications. Its simplicity, speed, built-in features, and extensive community support make it a preferred choice for many developers when it comes to writing and running tests for their code.
+
+Certainly! Here are some key reasons why Jest is popular for testing React applications
+
+🚀 Fast and Parallel Execution
+📸 Snapshot Testing
+🃏 Powerful Mocking
+🔄 Built-in Test Runner
+📊 Code Coverage
+🤝 Integration with React
+🌐 Large Ecosystem
+🧩 Ease of Use
+
+Q4. Types of test cases in React as a developers
+
+- Unit Testing: 🧩
+- Integration Testing: 🌐
+- End-to-End Testing: 🏁
+
+Q5. What is JSdom?
+Ans-5: JSdom is a js library that allows us to work with dom in node.js enviourment. 
+In simple terms it lets you manipulate and interact with web pages just like we would in a web browser. 
+
+But with in a server-side js enviourment, This is useful for tasks like web scraping, testing web applications or rendering web pages on the server.
+
