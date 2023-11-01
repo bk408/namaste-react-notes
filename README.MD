@@ -5,7 +5,7 @@
 - Dev Build
 - Local Server
 - HMR - Hot Module Replacement
-- File watching algorithm => written in c++
+- File watching algorithm => written in C++
 - Caching => Faster Builds
 - Image Optimization
 - Minification
@@ -13,12 +13,12 @@
 - Compressing
 - Consistent Hashing
 - Code Splitting
-- Diffrencial Bundling - Support older browsers
+- Differential Bundling - Support older browsers
 - Diagnostic
 - Error Handling
 - HTTPS
 - Tree Shaking => removed unused code
-- Diffrent dev and production bundles
+- Different dev and production bundles
 
 
 # Namste Food
@@ -27,8 +27,8 @@
  * Header
  * - logo
  * - Nav items
- * body
- * - search
+ * Body
+ * - Search
  * - Restaurant container
  *   - Restaurant card
  *     -img
@@ -38,8 +38,8 @@
  * Footer
  * - Copyright
  * - links
- * - address
- * - contact
+ * - Address
+ * - Contact
  *
  */
 
@@ -50,7 +50,7 @@
   - Default Export/Import
 
   export default component;
-  import componenet from "path"
+  import component from "path"
 
 
   - Named Export/Import
@@ -64,11 +64,11 @@
   - (Normal JS Function)  - Created by Facebook Developer
 
   Most Important Hooks
-  - useState => It gives us Superpowerful varible in React
+  - useState => It gives us Superpowerful variable in React
   - useEffect
 
 
-  # Code Spilitting
+  # Code Splitting
 
   ⚡ Advantage of code splitting:-
 
