@@ -1,0 +1,12 @@
+🧠 useMemo helps make our React app faster by remembering (or memoizing) the results of expensive calculations.
+ It's like writing down answers to math problems so we don't have to solve them again unless the numbers change.
+  This can make our app run smoother.
+
+🚀 Advantages of useMemo
+
+⚡ Performance Optimization
+📝 Memoization
+🚫 Disadvantages of useMemo
+
+🧩 Complexity
+⚙️ Overhead for Small Components

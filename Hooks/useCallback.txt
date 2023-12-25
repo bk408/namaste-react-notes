@@ -1,0 +1,15 @@
+🎣 useCallback is a hook in React, a JavaScript library for building user interfaces.
+ Its main purpose is to optimize performance by memoizing (caching) callback functions.
+
+🎭 Use of useCallback
+
+When we have a component that renders frequently or has children components that rely on callback functions as props, using useCallback can help prevent unnecessary re-creation of those functions on each render.
+
+🚀 Advantages
+
+⚡ Performance Optimization
+🚫 Preventing Unnecessary Renders
+🚫 Disadvantages
+
+🧩 Complexity
+⚙️ Overhead for Simple Components
